@@ -1,0 +1,31 @@
+{
+  "name": "ToolCall Witness",
+  "domain": "toolcallwitness.clauxel.com",
+  "type": "MCP",
+  "description": "Create witness receipts for agent tool calls before external actions become unverifiable.",
+  "endpoint": "https://toolcallwitness.clauxel.com/mcp",
+  "authentication": "Bearer token required for production use",
+  "tools": [
+    "create_witness_receipt",
+    "check_approval_rule",
+    "summarize_risk_timeline",
+    "export_audit_receipt"
+  ],
+  "pricing": [
+    {
+      "name": "Ops",
+      "monthlyUsd": 29,
+      "limit": "2000 receipts"
+    },
+    {
+      "name": "Team",
+      "monthlyUsd": 99,
+      "limit": "25000 receipts and shared evidence"
+    },
+    {
+      "name": "Scale",
+      "monthlyUsd": 249,
+      "limit": "250000 receipts and API"
+    }
+  ]
+}
