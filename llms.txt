@@ -1,0 +1,12 @@
+# ToolCall Witness MCP
+
+Paid remote MCP for agent tool-call receipts, approval evidence, arguments redaction, result summaries, and review exports.
+
+Website: https://toolcallwitness.clauxel.com/
+MCP endpoint: https://toolcallwitness.clauxel.com/mcp
+Server card: https://toolcallwitness.clauxel.com/server-card.json
+Docs: https://github.com/clauxel/tool-call-witness-mcp
+
+Use case: A witness layer for AI agent tool calls.
+Authentication: Bearer token required for production use.
+Tools: create_witness_receipt, check_approval_rule, summarize_risk_timeline, export_audit_receipt
