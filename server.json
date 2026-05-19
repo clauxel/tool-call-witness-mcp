@@ -1,0 +1,26 @@
+{
+  "name": "com.clauxel.toolcallwitness/toolcallwitness-mcp",
+  "title": "ToolCall Witness MCP",
+  "description": "Paid remote MCP for agent tool-call receipts, approval evidence, arguments redaction, result summaries, and review exports.",
+  "version": "1.0.0",
+  "websiteUrl": "https://toolcallwitness.clauxel.com/",
+  "documentationUrl": "https://github.com/clauxel/tool-call-witness-mcp",
+  "serverCardUrl": "https://toolcallwitness.clauxel.com/server-card.json",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://toolcallwitness.clauxel.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token from the product website."
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "tool-calls",
+    "audit",
+    "remote-mcp"
+  ]
+}
